@@ -1,0 +1,11 @@
+{% extends 'core/pag_padre.html' %} <!-- Este también es un "Template Tag" y sirve para extender los atributos
+de la pagína inicial a las páginas hijo. -->
+
+{% block title %} Home {% endblock %}
+
+{% block background %}{% load static %}{% static 'core/img/home-bg.jpg' %}{% endblock %}
+
+{% block headers %}
+<h1>Daniel de Jesús Rosas Pérez</h1>
+<span class="subheading">Ingeniero en Comunicaciones y Electrónica</span>
+{% endblock %}
