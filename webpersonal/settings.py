@@ -21,10 +21,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'e16vrpv)3&57s^_6riv-7ev*zq)2x!ubr-6tgy8eb$#3qd&ogq'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True # Desactivar el debug (DEBUG = False), cuando realicemos el despliegue en línea, ya que no 
+DEBUG = False # Desactivar el debug (DEBUG = False), cuando realicemos el despliegue en línea, ya que no 
 # deseamos que se muestren los directorios, información delicada, rutas, etc. Esto sirve por si tenemos errores
 # ubicarlos facilmente. Sin embargo, debido a los piratas informaticos, una vez se despliega, el DEBUG se apaga.
 
